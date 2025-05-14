@@ -16,7 +16,7 @@
 
 <script setup>
 import { teams } from '@/data/appTeams.js'
-// TODO: boucler sur le tableau d'objet 
+
 
 console.log(teams)
 

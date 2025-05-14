@@ -13,7 +13,12 @@ import RateView from '@/components/mainViews/RateView.vue'
 import TeamView from '@/components/mainViews/TeamView.vue'
 import TestimonialView from '@/components/mainViews/TestimonialView.vue'
 
-const currentView = 'team'
+defineProps({
+	currentView : {
+		type: String,
+		default: 'home'
+	}
+})
 
 </script>
 
